@@ -32,7 +32,7 @@ export default function Home() {
       <Navbar />
 
       {/* Hero */}
-      <section className="bg-gradient-to-br from-pink-50 via-white to-purple-50 pt-20 pb-24 px-4">
+      <section className="bg-gradient-to-br from-pink-100 via-white to-purple-200 pt-20 pb-24 px-4">
         <div className="max-w-4xl mx-auto text-center">
           <div className="inline-flex items-center gap-2 bg-white border border-pink-200 text-primary-500 text-xs font-semibold px-4 py-1.5 rounded-full mb-8 shadow-sm">
             <MapPin size={12} /> Disponible partout en Algérie
