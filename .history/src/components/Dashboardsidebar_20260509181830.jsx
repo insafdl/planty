@@ -16,7 +16,7 @@ const NAV = [
     { icon: Clock, label: 'Horaires', to: '/dashboard/hours' },
   ]},
   { section: 'STATISTIQUES', items: [
-    { icon: TrendingUp, label: 'Revenus', to: '/dashboard/revenue', premium: true },
+    { icon: TrendingUp, label: 'Revenus', to: '/dashboard/revenue', premium: false },
     { icon: Heart, label: 'Clients fidèles', to: '/dashboard/clients', premium: true },
   ]},
 ]

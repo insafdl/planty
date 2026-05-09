@@ -22,7 +22,7 @@ import ClientFavoris from './pages/client/favoris';
 import ClientSalonPicker from './pages/client/SalonPicker';
 import Horaires from './pages/Horaires'
 import Revenus from './pages/Revenus'
-import Clientsfideles  from './pages/Clientsfideles'
+import Clientsfideles  from './pages/Revenus'
 
 export default function App() {
   return (
@@ -43,7 +43,6 @@ export default function App() {
         <Route path="/dashboard/team" element={<MonEquipe />} />
         <Route path="/dashboard/hours" element={<Horaires />} />
         <Route path="/dashboard/revenue" element={<Revenus />} />
-        <Route path="/dashboard/clients" element={<Clientsfideles />} />
         {/* <Route path="/dashboard/admin" element={<DashboardAdmin />} /> */}
         <Route path="/client/inscription" element={<ClientRegister />} />
         <Route path="/client/connexion" element={<ClientLogin />} />

@@ -43,7 +43,7 @@ export default function App() {
         <Route path="/dashboard/team" element={<MonEquipe />} />
         <Route path="/dashboard/hours" element={<Horaires />} />
         <Route path="/dashboard/revenue" element={<Revenus />} />
-        <Route path="/dashboard/clients" element={<Clientsfideles />} />
+         <Route path="/dashboard/revenue" element={<Revenus />} />
         {/* <Route path="/dashboard/admin" element={<DashboardAdmin />} /> */}
         <Route path="/client/inscription" element={<ClientRegister />} />
         <Route path="/client/connexion" element={<ClientLogin />} />

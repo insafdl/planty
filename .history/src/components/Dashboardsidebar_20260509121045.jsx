@@ -7,7 +7,7 @@ import {
 const NAV = [
   { section: 'PRINCIPAL', items: [
     { icon: LayoutDashboard, label: 'Tableau de bord', to: '/dashboard' },
-    { icon: Calendar, label: 'Calendrier', to: '/dashboard/calendrier', badge: 3 },
+    { icon: Calendar, label: 'Calendrier', to: '/dashboard/calendar', badge: 3 },
     { icon: BookOpen, label: 'Réservations', to: '/dashboard/reservations' },
   ]},
   { section: 'GESTION', items: [

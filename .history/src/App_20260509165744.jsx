@@ -9,9 +9,6 @@ import Register from './pages/Register'
 import Dashboard from './pages/Dashboard'
 import DashboardPremium from './pages/DashboardPremium'
 import CalendrierInstitut from './pages/CalendrierInstitut'
-import Reservations from './pages/Reservations'
-import MesServices from './pages/MesServices'
-import MonEquipe from './pages/MonEquipe'
 // import DashboardAdmin from './pages/DashboardAdmin'
 import Login from './pages/Login'
 import ClientLogin from './pages/client/Login'
@@ -20,9 +17,6 @@ import ClientSalons from './pages/client/Salons'
 import ClientReservation from './pages/client/Reservation'
 import ClientFavoris from './pages/client/favoris';
 import ClientSalonPicker from './pages/client/SalonPicker';
-import Horaires from './pages/Horaires'
-import Revenus from './pages/Revenus'
-import Clientsfideles  from './pages/Clientsfideles'
 
 export default function App() {
   return (
@@ -37,13 +31,7 @@ export default function App() {
         <Route path="/connexion" element={<Login />} />
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/dashboard/premium" element={<DashboardPremium />} />
-        <Route path="/dashboard/calendrier" element={<CalendrierInstitut />} />
-        <Route path="/dashboard/reservations" element={<Reservations />} />
-        <Route path="/dashboard/services" element={<MesServices />} />
-        <Route path="/dashboard/team" element={<MonEquipe />} />
-        <Route path="/dashboard/hours" element={<Horaires />} />
-        <Route path="/dashboard/revenue" element={<Revenus />} />
-        <Route path="/dashboard/clients" element={<Clientsfideles />} />
+        <Route path="/calendrier" element={<CalendrierInstitut />} />
         {/* <Route path="/dashboard/admin" element={<DashboardAdmin />} /> */}
         <Route path="/client/inscription" element={<ClientRegister />} />
         <Route path="/client/connexion" element={<ClientLogin />} />
