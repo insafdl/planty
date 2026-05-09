@@ -10,7 +10,12 @@ import Dashboard from './pages/Dashboard'
 import DashboardPremium from './pages/DashboardPremium'
 // import DashboardAdmin from './pages/DashboardAdmin'
 import Login from './pages/Login'
-
+import ClientLogin from './pages/client/Login'
+import ClientRegister from './pages/client/Register'
+import ClientSalons from './pages/client/Salons'
+import ClientReservation from './pages/client/Reservation'
+import ClientFavoris from './pages/client/favoris';
+import ClientSalonPicker from './pages/client/SalonPicker';
 
 export default function App() {
   return (
@@ -26,6 +31,13 @@ export default function App() {
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/dashboard/premium" element={<DashboardPremium />} />
         {/* <Route path="/dashboard/admin" element={<DashboardAdmin />} /> */}
+        <Route path="/client/inscription" element={<ClientRegister />} />
+        <Route path="/client/connexion" element={<ClientLogin />} />
+        <Route path="/client/salons" element={<ClientSalons />} />        
+        <Route path="/client/reserver" element={<ClientSalonPicker />} />
+        <Route path="/client/reserver/:id" element={<ClientReservation />} />
+        <Route path="/client/favoris" element={<ClientFavoris />} />
+
       </Routes>
     </BrowserRouter>
   )
