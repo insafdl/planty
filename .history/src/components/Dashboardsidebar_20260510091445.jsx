@@ -17,7 +17,7 @@ const NAV = [
   ]},
   { section: 'STATISTIQUES', items: [
     { icon: TrendingUp, label: 'Revenus', to: '/dashboard/revenue', premium: false },
-    { icon: Heart, label: 'Clients fidèles', to: '/dashboard/clients', premium: false },
+    { icon: Heart, label: 'Clients fidèles', to: '/dashboard/clients', premium: true },
   ]},
 ]
 
